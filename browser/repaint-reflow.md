@@ -24,5 +24,12 @@ element.offsetTop // reflow, repaint
 
 - Лучше изменять свойства элемента через CSS классы, так как будет вызываться только 1 reflow, repaint.
 - Элементы лучше создавать сначала в памяти, а уже потом добавлять в DOM-дерево, что бы сократть кол-во repaint'ов
+- Уменьшить кол-во DOM элементов, потому что это влияет при reflow на рассчет всех потомков
 
 
+### Полезные ссылки:
+- http://chikuyonok.ru/2010/11/optimization-story/
+- https://habr.com/ru/company/yandex/blog/239169/
+- https://webo.in/articles/all/2009/31-rending-restyle-reflow-relayout/
+- https://webo.in/articles/habrahabr/38-css-efficiency-tests-3/
+- https://webo.in/articles/habrahabr/53-semantic-dom-tree/
