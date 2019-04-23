@@ -5,7 +5,7 @@
 - [ ] Нарисовать схемку работы Тасок и микротасок
 - [x] Что такое Reflow/Repaint [Ссылка](https://github.com/evless/topics/blob/master/browser/repaint-reflow.md)
 - [ ] Написать примеры для Reflow/Repaint
-- [ ] Аттрибут defer/async
+- [x] Аттрибут defer/async [Ссылка](https://github.com/evless/topics/blob/master/browser/defer-async.md)
 - [ ] Разобраться со способами кэширования статики и с тем, как можно управлять порядком загрузки ресурсов на странице.
 - [ ] Разобраться с тем, как рендерится страница. [Ссылка](https://github.com/evless/topics/blob/master/browser/render.md)
 - [ ] Написать демо-приложение/приложения, где будут на примере разобраны проблемы производительности.
