@@ -13,7 +13,7 @@
 
 Нужно кэшировать текстуры, что бы браузер брал их из кэша. То есть есть делаем `display: none`, то браузер будет удалять эту текстуру (нужно погуглить про этот момент)
 
-### Полезные ссылки:
-- [Критический путь рендеринга веб-страниц](https://habr.com/ru/post/262239/)
-- https://www.cat-in-web.ru/otrisovka-v-brauzere-i-rekomendatsii-po-veb-proizvoditelnosti/
-- http://webknowledge.ru/kak-rabotaet-brauzer-chto-proishodit-za-kulisami-sovremennyh-brauzerov/
+## Полезные ссылки:
+* [Критический путь рендеринга веб-страниц](https://habr.com/ru/post/262239/)
+* https://www.cat-in-web.ru/otrisovka-v-brauzere-i-rekomendatsii-po-veb-proizvoditelnosti/
+* http://webknowledge.ru/kak-rabotaet-brauzer-chto-proishodit-za-kulisami-sovremennyh-brauzerov/
