@@ -71,3 +71,6 @@ element.offsetTop // reflow, repaint
 * https://dev.opera.com/articles/efficient-javascript/?page=3#reflow
 * [Рендеринг WEB-страницы: что об этом должен знать front-end разработчик](https://habr.com/ru/post/224187/)
 * [10 способов минимизировать reflow и повысить производительность](https://webformyself.com/10-sposobov-minimizirovat-reflow-i-povysit-proizvoditelnost/)
+* [Rendering: repaint, reflow/relayout, restyle](https://www.phpied.com/rendering-repaint-reflowrelayout-restyle/)
+* [Тригеры срабатывания](https://csstriggers.com/)
+* [Производительность визуализации](https://developers.google.com/web/fundamentals/performance/rendering/)

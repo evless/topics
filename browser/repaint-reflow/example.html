@@ -1,0 +1,127 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Repaint Reflow Example</title>
+    <style>
+        * {
+            font-size: 20px;
+            color: #202020;
+            margin: 0;
+        }
+
+        body {
+            padding: 20px;
+        }
+
+        .button {
+            font-size: 20px;
+            padding: 10px;
+            border-radius: 5px;
+            background: #f5f5f5;
+        }
+
+        .button:hover {
+            border-color: aquamarine;
+            background: aquamarine;
+            color: #fff;
+        }
+
+        .repaint-and-reflow {
+            width: 275px;
+        }
+        
+        .repaint-and-reflow:hover {
+            font-size: 15px;
+        }
+
+        .text-example {
+            margin: 20px;
+            color: black;
+        }
+
+        .only-repaint-text_color_red {
+            color: red;
+        }
+
+        .menu {
+            background: #fff;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            padding: 0;
+            width: 200px;
+            margin-left: -200px;
+
+            transition: 1s margin-left;
+        }
+
+        .menu_opened {
+            margin-left: 0;
+        }
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="#">Главная страница</a></li>
+    </ul>
+    <button class="button only-repaint" type="button">Only repaint example</button>
+    <button class="button repaint-and-reflow" type="button">Repaint and reflow example</button>
+    <button class="button menu-button" type="button">Open menu</button>
+    <div class="text-example">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus ab officia hic consequatur aperiam tenetur necessitatibus maxime repellat repellendus, sit quia maiores, odio id impedit distinctio. Quae alias dignissimos accusantium.</div>
+    <div class="text-example-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus ab officia hic consequatur aperiam tenetur necessitatibus maxime repellat repellendus, sit quia maiores, odio id impedit distinctio. Quae alias dignissimos accusantium.</div>
+
+    <script>
+        window.onload = function() {
+            var colors = {
+                red: 'red',
+                black: 'black'
+            };
+            var menuOpened = false;
+
+            var onlyRepaintButton = document.querySelector('.only-repaint')
+            var repaintAndReflowButton = document.querySelector('.repaint-and-reflow')
+            var menuButton = document.querySelector('.menu-button')
+            var menu = document.querySelector('.menu')
+            var textExample = document.querySelector('.text-example')
+            var onlyRepaintCurrentColor = colors.black;
+            
+            onlyRepaintButton.addEventListener('click', function() {
+                if (onlyRepaintCurrentColor === colors.black) {
+                    textExample.classList.add('only-repaint-text_color_red')
+                    onlyRepaintCurrentColor = colors.red;
+                } else {
+                    textExample.classList.remove('only-repaint-text_color_red')
+                    onlyRepaintCurrentColor = colors.black;
+                }
+            });
+
+            repaintAndReflowButton.addEventListener('click', function() {
+                if (onlyRepaintCurrentColor === colors.black) {
+                    textExample.classList.add('only-repaint-text_color_red')
+                    textExample.style.padding = Math.random() * 30
+                    textExample.style.marginTop = Math.random() * 50
+                    onlyRepaintCurrentColor = colors.red;
+                } else {
+                    textExample.classList.remove('only-repaint-text_color_red')
+                    textExample.style.padding = Math.random() * 30
+                    textExample.style.marginTop = Math.random() * 50
+                    onlyRepaintCurrentColor = colors.black;
+                }
+            });
+
+            menuButton.addEventListener('click', function() {
+                if (menuOpened) {
+                    menu.classList.remove('menu_opened')
+                } else {
+                    menu.classList.add('menu_opened')
+                }
+
+                menuOpened = !menuOpened
+            });
+        }
+    </script>
+</body>
+</html>

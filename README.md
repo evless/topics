@@ -1,8 +1,8 @@
 # Answers
 
-- [x] Что такое Reflow/Repaint [Ссылка](https://github.com/evless/topics/blob/master/browser/repaint-reflow.md)
-- [ ] Написать примеры для Reflow/Repaint
-- [x] Аттрибут defer/async [Ссылка](https://github.com/evless/topics/blob/master/browser/defer-async.md)
+- [x] Что такое Reflow/Repaint [Ссылка](https://github.com/evless/topics/blob/master/browser/repaint-reflow/README.md)
+- [x] Написать примеры для Reflow/Repaint [Ссылка](https://github.com/evless/topics/blob/master/browser/repaint-reflow/examepl.html)
+- [x] Аттрибут defer/async [Ссылка](https://github.com/evless/topics/blob/master/browser/defer-async/README.md)
 - [x] Разобраться со способами кэширования статики и с тем, как можно управлять порядком загрузки ресурсов на странице. [Ссылка](https://github.com/evless/topics/blob/master/cache/README.md)
 - [ ] Разобраться с тем, как рендерится страница. [Ссылка](https://github.com/evless/topics/blob/master/browser/render.md)
 - [ ] Написать демо-приложение/приложения, где будут на примере разобраны проблемы производительности.
