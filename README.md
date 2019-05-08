@@ -1,7 +1,7 @@
 # Answers
 
 - [x] Что такое Reflow/Repaint [Ссылка](https://github.com/evless/topics/blob/master/browser/repaint-reflow/README.md)
-- [x] Написать примеры для Reflow/Repaint [Ссылка](https://github.com/evless/topics/blob/master/browser/repaint-reflow/examepl.html)
+- [x] Написать примеры для Reflow/Repaint [Ссылка](https://github.com/evless/topics/blob/master/browser/repaint-reflow/example.html)
 - [x] Аттрибут defer/async [Ссылка](https://github.com/evless/topics/blob/master/browser/defer-async/README.md)
 - [x] Разобраться со способами кэширования статики и с тем, как можно управлять порядком загрузки ресурсов на странице. [Ссылка](https://github.com/evless/topics/blob/master/cache/README.md)
 - [ ] Разобраться с тем, как рендерится страница. [Ссылка](https://github.com/evless/topics/blob/master/browser/render.md)
@@ -10,8 +10,8 @@
 - [x] Попробовать интегрировать кэширование в connect. [Ссылка](https://github.com/evless/DuckX)
 - [ ] Переписать redux, но уже с использованием стримов (RxJS).
 - [ ] Как устроен интерпритатор Javascript [Ссылка](https://github.com/evless/topics/blob/master/engine/README.md)
-- [ ] Работа тасок и микротасок
-- [ ] Нарисовать схемку работы Тасок и микротасок
+- [ ] Работа тасок и микротасок [Ссылка](https://github.com/evless/topics/blob/master/browser/task/README.md)
+- [ ] Нарисовать схемку работы Тасок и микротасок [Ссылка](https://github.com/evless/topics/blob/master/browser/task/README.md)
 - [ ] Разобраться в нюансах работы интерпретатора/vm/gc/event loop
 - [ ] Как работают интерпретаторы современных ЯП (в частности JS)? [Ссылка](https://github.com/evless/topics/blob/master/engine/README.md)
 - [ ] Чем отличаются интерпретируемые языки от компилируемых? [Ссылка](https://github.com/evless/topics/blob/master/engine/README.md)
