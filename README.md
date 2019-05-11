@@ -9,14 +9,14 @@
 - [x] Написать свой redux (можно опираться на материалы из интервента), разобраться в том, как работает redux. [Ссылка](https://github.com/evless/DuckX)
 - [x] Попробовать интегрировать кэширование в connect. [Ссылка](https://github.com/evless/DuckX)
 - [ ] Переписать redux, но уже с использованием стримов (RxJS).
-- [ ] Как устроен интерпритатор Javascript [Ссылка](https://github.com/evless/topics/blob/master/engine/README.md)
-- [ ] Работа тасок и микротасок [Ссылка](https://github.com/evless/topics/blob/master/browser/task/README.md)
-- [ ] Нарисовать схемку работы Тасок и микротасок [Ссылка](https://github.com/evless/topics/blob/master/browser/task/README.md)
-- [ ] Разобраться в нюансах работы интерпретатора/vm/gc/event loop
-- [ ] Как работают интерпретаторы современных ЯП (в частности JS)? [Ссылка](https://github.com/evless/topics/blob/master/engine/README.md)
-- [ ] Чем отличаются интерпретируемые языки от компилируемых? [Ссылка](https://github.com/evless/topics/blob/master/engine/README.md)
-- [ ] Для чего нужны виртуальные машины языкам программирования?
-- [ ] Что такое JIT-компиляция, для чего она нужна? [Ссылка](https://github.com/evless/topics/blob/master/engine/README.md)
+- [x] Как устроен интерпритатор Javascript [Ссылка](https://github.com/evless/topics/blob/master/engine/README.md)
+- [x] Работа тасок и микротасок [Ссылка](https://github.com/evless/topics/blob/master/engine/README.md)
+- [x] Нарисовать схемку работы Тасок и микротасок [Ссылка](https://github.com/evless/topics/blob/master/engine/README.md)
+- [x] Разобраться в нюансах работы интерпретатора/vm/gc/event loop
+- [x] Как работают интерпретаторы современных ЯП (в частности JS)? [Ссылка](https://github.com/evless/topics/blob/master/engine/README.md)
+- [x] Чем отличаются интерпретируемые языки от компилируемых? [Ссылка](https://github.com/evless/topics/blob/master/engine/README.md)
+- [x] Для чего нужны виртуальные машины языкам программирования? [Ссылка](https://github.com/evless/topics/blob/master/engine/README.md)
+- [x] Что такое JIT-компиляция, для чего она нужна? [Ссылка](https://github.com/evless/topics/blob/master/engine/README.md)
 - [ ] Рассказать про структуры данных, рассказать какие структуры данных используются в js, в его интерпретаторе. [Ссылка](https://github.com/evless/topics/blob/master/data-structure/README.md)
 - [x] Прочитать про кэширование в общем смысле (изучить распространенные алгоритмы кэширования, типа LRU). [Ссылка](https://github.com/evless/topics/blob/master/cache/README.md)
 - [x] Реализовать собственную in memory db и использовать ее для кэширования запросов к демо-приложению на node.js. [Ссылка](https://github.com/evless/in-memory-db)
