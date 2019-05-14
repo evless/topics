@@ -69,6 +69,7 @@ element.offsetTop // reflow, repaint
 * [Семантика проигрывает!](https://webo.in/articles/habrahabr/53-semantic-dom-tree/)
 * https://webkit.org/blog/114/webcore-rendering-i-the-basics/
 * https://dev.opera.com/articles/efficient-javascript/?page=3#reflow
+* https://gist.github.com/paulirish/5d52fb081b3570c81e3a
 * [Рендеринг WEB-страницы: что об этом должен знать front-end разработчик](https://habr.com/ru/post/224187/)
 * [10 способов минимизировать reflow и повысить производительность](https://webformyself.com/10-sposobov-minimizirovat-reflow-i-povysit-proizvoditelnost/)
 * [Rendering: repaint, reflow/relayout, restyle](https://www.phpied.com/rendering-repaint-reflowrelayout-restyle/)
