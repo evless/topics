@@ -1,0 +1,12 @@
+* {
+    font-family: Verdana;
+}
+
+body {
+    padding: 0.5em;
+    background: #e7f6ff;
+}
+
+.small-text {
+    font-size: 10px;
+}

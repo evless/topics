@@ -11,6 +11,8 @@
 
 ## Порядок обработки документа
 
+![Порядок обработки документа](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/images/render-tree-construction.png)
+
 Сначала браузер собирает все теги и строит из них DOM-tree. Тут же он строит каскадное дерево из CSS. После наложения друг на друга мы получаем renderTree — дерево, уже с конечным результатом, где, например, вырезаются теги, которые имеют `display: none` или не нужно их визуально отображать, например head, scripts. Потом происходит компановка. При этом браузер может по ходу уже начинать отрисовывать элементы, которые дошли до этапа компановки.
 
 **Нужно кэшировать текстуры, что бы браузер брал их из кэша. То есть есть делаем `display: none`, то браузер будет удалять эту текстуру (нужно погуглить про этот момент)**
@@ -35,8 +37,25 @@
 
 Используется два флага: dirty и children are dirty. Флаг children are dirty означает, что перекомпоновка требуется не самому объекту отображения, а одному или нескольким из его дочерних объектов.
 
+## Советы по оптимизации
+Главная проблема — взаимодействие HTML, CSS и JS на странице, потому что каждый из них замедляет первоначальную отрисовку страницы.
+
+Советы по подключению JS скриптов можно почитать [тут](https://github.com/evless/topics/blob/master/browser/defer-async/README.md)
+
+## Пример
+По синей полоске в нетворке, мы можем заметить, как сильно разница скорость парсинга документа для вывода пользователю при медленном интернете с использованием `async` и без него. Поэтому скрипты нужно добавлять перед `body` и что бы они не блокироваи парсинг документа. Лучше использовать `async` || `defer`, что бы пользователь мог уже видеть первоначальную картинку, а не смотреть в белый экран. В самом начале подключать только нужые `css`, а остальные помечать аттрибутом `media`, которые могут подождать загрузки и парсинга.
+
+**Скорость загрузки и парсинга документа без async**
+![Пример без async](http://s.csssr.ru/U7RQKLD4J/2019-05-28-22-57-49-vx39q.jpg)
+
+**Скорость загрузки и парсинга документа с async**
+![Пример с async](http://s.csssr.ru/U7RQKLD4J/2019-05-28-22-56-27-xlrzs.jpg)
+
 ## Полезные ссылки:
 * [Критический путь рендеринга веб-страниц](https://habr.com/ru/post/262239/)
 * [Отрисовка в браузере и рекомендации по веб-производительности](https://www.cat-in-web.ru/otrisovka-v-brauzere-i-rekomendatsii-po-veb-proizvoditelnosti/)
 * [Принципы работы современных веб-браузеров](https://www.html5rocks.com/ru/tutorials/internals/howbrowserswork/)
 * **Почему не стоит использовать GIF** — https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/replace-animated-gifs-with-video/
+* [Создание модели DOM](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model)
+* [Создание модели визуализации и макета, вывод страницы на экран](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction)
+* [Анализ процесса визуализации](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/analyzing-crp)

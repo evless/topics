@@ -4,8 +4,8 @@
 - [x] Написать примеры для Reflow/Repaint [Ссылка](https://github.com/evless/topics/blob/master/browser/repaint-reflow/example.html)
 - [x] Аттрибут defer/async [Ссылка](https://github.com/evless/topics/blob/master/browser/defer-async/README.md)
 - [x] Разобраться со способами кэширования статики и с тем, как можно управлять порядком загрузки ресурсов на странице. [Ссылка](https://github.com/evless/topics/blob/master/cache/README.md)
-- [ ] Разобраться с тем, как рендерится страница. [Ссылка](https://github.com/evless/topics/blob/master/browser/render/README.md)
-- [ ] Написать демо-приложение/приложения, где будут на примере разобраны проблемы производительности.
+- [x] Разобраться с тем, как рендерится страница. [Ссылка](https://github.com/evless/topics/blob/master/browser/render/README.md)
+- [x] Написать демо-приложение/приложения, где будут на примере разобраны проблемы производительности. [С использованием async](https://github.com/evless/topics/blob/master/browser/render/examepl/with-async.html) [Без использования async](https://github.com/evless/topics/blob/master/browser/render/examepl/without-async.html)
 - [x] Написать свой redux (можно опираться на материалы из интервента), разобраться в том, как работает redux. [Ссылка](https://github.com/evless/DuckX)
 - [x] Попробовать интегрировать кэширование в connect. [Ссылка](https://github.com/evless/DuckX)
 - [ ] Переписать redux, но уже с использованием стримов (RxJS).
