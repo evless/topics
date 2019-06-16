@@ -8,7 +8,7 @@
 - [x] Написать демо-приложение/приложения, где будут на примере разобраны проблемы производительности. [С использованием async](https://github.com/evless/topics/blob/master/browser/render/examepl/with-async.html) [Без использования async](https://github.com/evless/topics/blob/master/browser/render/examepl/without-async.html)
 - [x] Написать свой redux (можно опираться на материалы из интервента), разобраться в том, как работает redux. [Ссылка](https://github.com/evless/DuckX)
 - [x] Попробовать интегрировать кэширование в connect. [Ссылка](https://github.com/evless/DuckX)
-- [ ] Переписать redux, но уже с использованием стримов (RxJS).
+- [x] Переписать redux, но уже с использованием стримов (RxJS). [Ссылка](https://github.com/evless/DuckX/tree/rxjs)
 - [x] Как устроен интерпритатор Javascript [Ссылка](https://github.com/evless/topics/blob/master/engine/README.md)
 - [x] Работа тасок и микротасок [Ссылка](https://github.com/evless/topics/blob/master/engine/README.md)
 - [x] Нарисовать схемку работы Тасок и микротасок [Ссылка](https://github.com/evless/topics/blob/master/engine/README.md)
