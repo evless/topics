@@ -55,6 +55,9 @@
 <script defer src="small.js"></script>
 ```
 
+## Пример
+Описание примеров можно посмотреть в разделе [рендеринга страницы](https://github.com/evless/topics/blob/master/browser/render/README.md) а сами примеры тут — [С использованием async](https://github.com/evless/topics/blob/master/browser/render/example/with-async.html) [Без использования async](https://github.com/evless/topics/blob/master/browser/render/example/without-async.html)
+
 ## Полезные ссылки
 * [Внешние скрипты, порядок исполнения](https://learn.javascript.ru/external-script)
 * [Асинхронный JavaScript против отложенного](https://habr.com/ru/post/323790/)
