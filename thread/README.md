@@ -10,3 +10,4 @@
 * https://ru.wikipedia.org/wiki/Поток_выполнения
 * https://tproger.ru/problems/what-is-the-difference-between-threads-and-processes/
 * https://maxpoletaev.ru/blog/async-python/
+* https://life-prog.ru/view_os.php?id=30
